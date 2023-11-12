@@ -1,15 +1,15 @@
 import "./styles.css";
 import React,{ useState } from "react";
 
-var phoneNumberSwitch=false;
-
-
-
 export default function ListingAd({ pic, title, address,project_type, year, ownership_type, 
-  availabilities_label, psf_min, psf_max, subprice_label, description,phoneNumber,num}) {
+  availabilities_label, psf_min, psf_max, subprice_label, description,phonenum,number}) {
+  function testNum(){
+   console.log({number});
+  }
 
   const [open,setOpen]=useState(false);
-
+  const [reveal, setReveal] = useState({number});
+  
   return (
     <div className="App">
       <img className="mainPic" width="500" height="500" src={pic} />
@@ -40,6 +40,10 @@ export default function ListingAd({ pic, title, address,project_type, year, owne
           {
             open?
             <p className="description">{description}
+            <button className="testShow" onClick={testNum}>Show Number</button>
+            {
+              reveal?<p className="numText">{number}</p>:null
+            }
             </p>
             :null
           }
