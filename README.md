@@ -1,4 +1,4 @@
-# Hello
+# Hello!
 
 My name is Eleanor Susanto from Binus University and I'm currently pursuing a degree in Computer Science. 
 
