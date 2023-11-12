@@ -1,38 +1,9 @@
-# A Challenge
+# Hello
 
-Hello and thanks for trying out with us!
+My name is Eleanor Susanto from Binus University and I'm currently pursuing a degree in Computer Science. 
 
-You will find here a few tests. These are composed of some basic yet bit challenging problems we've had to solve on the job.
-This will also allow you to have a glimpse of what we work on at 99.co and see if that's interesting to you.
-Finally, this'll provide us with insights on your working style.
+First foremost, I would like to say thank you for giving me this opportunity to do the technical test for 99 Group Front End Developer Intern Position. I hope this surpass your expectation. 
 
-## Submission
+To answer the question regarding main pic, I suggest to compress the picture online by searching compress image online. For example, TinyPNG or other picture compressing tools online. Not only that, I did find a way to change it offline, which is by using editing tools. Downloading and rendering it to a smaller size could belp with reducing weight. But I always do the compress image online method since it reduces a lot of the weight.
 
-You have 2 days to complete the challenge. Though realistically, this shouldn't take you more than 4 hours.
-
-Please fork this and once you complete, send us back the forked link to rupert@99.co, benedict.bisana@99.co and try.wijono@99.co 
-
-## Questions
-
-### React
-
-1. Hide description until the button is clicked
-
-2. Because of SEO we want to only hide description after page load
-
-3. Anonymize all phone numbers: first 4 numbers visible, replace following 4 with X (e.g. 8111 XXXX or 8123 XXXX)
-   Note Singapore phone number format is always 8 numbers long.
-   See [Number Ranges on wikipedia](https://en.wikipedia.org/wiki/Telephone_numbers_in_Singapore#Number_ranges) for precise rules.
-
-4. Line returns (new lines) in the description text should be displayed on page. The text must NOT be all in one line.
-
-5. Clicking on phone number reveals the real number
-
-
-
-### Styling
-
-1. Implement the [following design](https://www.figma.com/file/zT67hKBce1jfyZPkx5cGrg/FE-challenge---Project-card-design).
-   Note: you will have to register on Figma if you don't already have an account
-
-2. Main pic is too heavy, please suggest ways to reduce its weight.
+I have to admit that the test is pretty challenging since it's my first full-length React Project I have ever done, but I had so much fun and I found it very interesting! I also tried my best and hardest and learned so much from this test itself and I would be honored to learn more of it through 99 Group. I am looking foward to hear from you guys, Thank you so much once again.
