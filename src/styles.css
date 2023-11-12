@@ -273,3 +273,109 @@
   }
 
 }
+
+
+@media screen and (max-width:320px) {
+  .App {
+    width: 80%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mainPic {
+    object-fit:cover;
+    width: 100%;
+    height:fit-content;
+    position: relative;
+  }
+
+  .hovers:hover {
+    opacity: 0;
+   
+  }
+
+  .Section{
+    display: inline-block;
+  }
+
+  .leftSection{
+    justify-content: space-between;
+  }
+
+  .frame{
+    display: flex;
+    align-items: center;
+  }
+
+  .frameText{
+    display:inline-block;
+    margin-left: 10px;
+    line-height: 14px;
+  }
+
+  .icon{
+  width: 40px;
+  height: 40px;
+  }
+
+  .mainContent h1{
+    font-size:14px;
+    font-weight: 600;
+  }
+
+  .address{
+    color:#787D9C;
+    font-size: 10px;
+  }
+
+  .descText{
+    line-height: 10px;
+  }
+
+  .Fill{
+    font-size:12px;
+    font-weight: 400;
+  }
+
+  .Fill2{
+    font-size:12px;
+    font-weight: 400;
+  }
+
+  .rightSection{
+    display:flex;
+ 
+  }
+
+  .psf{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 10px;
+    white-space: nowrap;
+  }
+
+  .prices{
+    color:#787D9C;
+    font-size: 8px;
+    margin: 16px 0px 0px 15px;
+    white-space: nowrap;
+  }
+
+  .btn{
+    font-size: 14px;
+    float: right;
+    margin:20px 0px 0px 20px;
+    justify-content: end;
+    
+  }
+
+  .description{
+    white-space: pre-wrap;
+    justify-content: center;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 50px;
+  }
+
+}
