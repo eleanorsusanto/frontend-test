@@ -3,12 +3,9 @@ import React,{ useState } from "react";
 
 export default function ListingAd({ pic, title, address,project_type, year, ownership_type, 
   availabilities_label, psf_min, psf_max, subprice_label, description,phonenum,number}) {
-  function testNum(){
-   console.log({number});
-  }
 
   const [open,setOpen]=useState(false);
-  const [reveal, setReveal] = useState({number});
+  const [reveal, setReveal] = useState(false);
   
   return (
     <div className="App">
@@ -40,17 +37,13 @@ export default function ListingAd({ pic, title, address,project_type, year, owne
           {
             open?
             <p className="description">{description}
-            <button className="testShow" onClick={testNum}>Show Number</button>
-            {
-              reveal?<p className="numText">{number}</p>:null
-            }
+            <button className="testShow" onClick={()=>setReveal(!reveal)}>Show Phone Number</button>
+            {reveal?<div>{phonenum}</div>:<div>{number}</div>}
             </p>
             :null
           }
 
         </div>
-      
-
       </div>
     </div>
   );
